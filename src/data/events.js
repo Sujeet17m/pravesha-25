@@ -1,179 +1,169 @@
 
 import { 
   Code, 
-  FileCode, 
-  Bug, 
-  Robot, 
-  Atom, 
+  Cpu, 
+  Globe, 
+  Brackets, 
+  Puzzle, 
+  Gamepad2, 
   Music, 
-  Film, 
-  Gamepad, 
-  Palette, 
-  Mic
-} from "lucide-react";
+  Camera, 
+  Speech, 
+  BookOpen 
+} from 'lucide-react';
 
 export const technicalEvents = [
   {
-    id: "paper-presentation",
-    title: "PAPER PRESENTATION",
-    description: "Present your research papers and innovative ideas",
-    icon: FileCode,
-    rules: [
-      "Each team can have a maximum of 2 members",
-      "Presentation time: 8 minutes + 2 minutes for Q&A",
-      "Papers must be in IEEE format",
-      "Topics should be related to emerging technologies",
-      "Submission deadline: March 20, 2025",
-      "Plagiarism will result in disqualification"
-    ],
-    venue: "Main Auditorium",
-    time: "10:00 AM - 12:30 PM"
-  },
-  {
-    id: "hackathon-heroes",
-    title: "HACKATHON HEROES",
-    description: "A 24-hour coding marathon to solve real-world problems",
+    id: 1,
+    title: "Code Combat",
+    description: "Test your coding skills with our competitive programming challenge.",
+    venue: "CS Lab 1",
+    time: "10:00 AM - 12:00 PM",
     icon: Code,
     rules: [
-      "Teams of 2-4 members",
-      "Theme will be announced at the start of the event",
-      "Use of pre-written code is prohibited",
-      "Judging based on innovation, practicality, and execution",
-      "All tech stacks are allowed",
-      "Participants must bring their own laptops and necessary peripherals"
-    ],
-    venue: "CS Department Labs",
-    time: "Starts at 9:00 AM (24 hour event)"
+      "Individual participation only",
+      "Languages allowed: C, C++, Java, Python",
+      "Internet access is not permitted during the contest",
+      "Time limit: 2 hours",
+      "Participants must bring their own laptops"
+    ]
   },
   {
-    id: "tech-titans",
-    title: "TECH TITANS",
-    description: "Technical quiz covering latest technologies and trends",
-    icon: Atom,
+    id: 2,
+    title: "Tech Quiz",
+    description: "Challenge your knowledge on various technical domains and current trends.",
+    venue: "Seminar Hall",
+    time: "2:00 PM - 3:30 PM",
+    icon: Cpu,
+    rules: [
+      "Team of 2 members",
+      "Multiple choice and rapid fire rounds",
+      "No electronic gadgets allowed during the quiz",
+      "Judge's decision is final",
+      "Negative marking for wrong answers"
+    ]
+  },
+  {
+    id: 3,
+    title: "Web Design",
+    description: "Showcase your creativity and technical skills in web development.",
+    venue: "CS Lab 2",
+    time: "11:00 AM - 1:00 PM",
+    icon: Globe,
+    rules: [
+      "Team of 2 members",
+      "Design a website based on the given theme",
+      "Pre-built templates are not allowed",
+      "Frameworks allowed: React, Angular, Vue",
+      "Time limit: 2 hours"
+    ]
+  },
+  {
+    id: 4,
+    title: "Debug the Code",
+    description: "Find and fix errors in given code snippets within time constraints.",
+    venue: "CS Lab 3",
+    time: "3:00 PM - 4:00 PM",
+    icon: Brackets,
     rules: [
       "Individual participation",
-      "Three rounds: Preliminary, Advanced, and Rapid Fire",
-      "Topics include coding, IT trends, tech history, and current affairs",
-      "Mobile phones are prohibited during the quiz",
-      "Judge's decision will be final",
-      "Tie-breaker rounds will be conducted if necessary"
-    ],
-    venue: "Seminar Hall 2",
-    time: "2:00 PM - 4:00 PM"
-  },
-  {
-    id: "debug-masters",
-    title: "DEBUG MASTERS",
-    description: "Find and fix bugs in given code snippets",
-    icon: Bug,
-    rules: [
-      "Individual participation",
-      "Languages: C, C++, Java, Python",
-      "Three levels with increasing difficulty",
-      "Time limit: 90 minutes",
-      "Participants scoring above 70% will receive certificates",
-      "Internet access is prohibited during the contest"
-    ],
-    venue: "Programming Lab",
-    time: "11:00 AM - 12:30 PM"
-  },
-  {
-    id: "robo-rush",
-    title: "ROBO RUSH",
-    description: "Showcase your robotics and automation projects",
-    icon: Robot,
-    rules: [
-      "Teams of up to 3 members",
-      "Project should be original and functioning",
-      "5 minutes for presentation + 3 minutes for Q&A",
-      "Power supply (220V) will be provided",
-      "Pre-registration with project abstract required",
-      "Projects will be judged on innovation, execution, and presentation"
-    ],
-    venue: "Robotics Lab",
-    time: "1:00 PM - 4:00 PM"
+      "Multiple programming languages will be provided",
+      "Time limit: 1 hour",
+      "Points based on number of bugs fixed",
+      "Leaderboard will be updated live"
+    ]
   }
 ];
 
 export const nonTechnicalEvents = [
   {
-    id: "showoff-2",
-    title: "SHOWOFF 2.0",
-    description: "Showcase your talents in dance, music, or any performing art",
+    id: 5,
+    title: "Puzzle Mania",
+    description: "Challenge your logical thinking and problem-solving skills.",
+    venue: "Main Auditorium",
+    time: "12:00 PM - 1:00 PM",
+    icon: Puzzle,
+    rules: [
+      "Individual participation",
+      "Multiple rounds with increasing difficulty",
+      "Time limit for each puzzle",
+      "No electronic aids allowed",
+      "Participants must register 30 minutes before event"
+    ]
+  },
+  {
+    id: 6,
+    title: "Gaming Tournament",
+    description: "Compete in popular games like Valorant and FIFA.",
+    venue: "Gaming Arena",
+    time: "Throughout the day",
+    icon: Gamepad2,
+    rules: [
+      "Team registration required for team games",
+      "Knockout tournament format",
+      "Standard tournament rules apply",
+      "Players must bring their own controllers",
+      "Unsportsmanlike conduct will result in disqualification"
+    ]
+  },
+  {
+    id: 7,
+    title: "Music Competition",
+    description: "Showcase your musical talent in singing or instrumental performance.",
+    venue: "Open Auditorium",
+    time: "2:00 PM - 5:00 PM",
     icon: Music,
     rules: [
-      "Solo and group performances allowed (max 8 members for group)",
-      "Time limit: 5 minutes for solo, 8 minutes for group",
-      "Pre-recorded music should be submitted in advance (MP3 format)",
-      "No vulgarity in performance",
-      "Props allowed but must be approved beforehand",
-      "Judging based on creativity, skill, and overall presentation"
-    ],
-    venue: "Open Air Theater",
-    time: "4:30 PM - 7:00 PM"
+      "Solo or group performance allowed",
+      "Time limit: 5 minutes per performance",
+      "Background music allowed for singing",
+      "Participants must bring their own instruments",
+      "Registration closes 1 hour before event"
+    ]
   },
   {
-    id: "cinephile",
-    title: "CINEPHILE",
-    description: "Test your knowledge of cinema and entertainment",
-    icon: Film,
+    id: 8,
+    title: "Photography Contest",
+    description: "Capture the essence of the symposium through your lens.",
+    venue: "Campus-wide",
+    time: "Throughout the day",
+    icon: Camera,
     rules: [
-      "Teams of 2 members",
-      "Multiple rounds covering different aspects of cinema",
-      "Questions on Hollywood, Bollywood, and regional cinema",
-      "Visual and audio rounds included",
-      "No electronic devices allowed during the quiz",
-      "Tie-breaker rounds will be conducted if necessary"
-    ],
-    venue: "Mini Auditorium",
-    time: "10:30 AM - 12:00 PM"
+      "Theme will be announced on the day of event",
+      "Only mobile photography allowed",
+      "No editing or filters permitted",
+      "Submit up to 3 entries per participant",
+      "Deadline for submission: 4:00 PM"
+    ]
   },
   {
-    id: "e-games",
-    title: "E-GAMES",
-    description: "Competitive gaming tournament",
-    icon: Gamepad,
+    id: 9,
+    title: "Just A Minute",
+    description: "Test your impromptu speaking skills on random topics.",
+    venue: "Seminar Hall 2",
+    time: "11:30 AM - 1:00 PM",
+    icon: Speech,
     rules: [
-      "Games: Valorant, FIFA 24, Call of Duty Mobile",
-      "Team size depends on the game (Valorant: 5, FIFA: 1, COD: 4)",
-      "Knockout tournament format",
-      "Participants can bring their own peripherals",
-      "Cheating will result in immediate disqualification",
-      "Registration closes on March 25, 2025"
-    ],
-    venue: "Digital Arena",
-    time: "9:00 AM - 6:00 PM"
+      "Individual participation",
+      "Topics given on the spot",
+      "Exactly 1 minute to speak",
+      "No repetition, hesitation, or deviation",
+      "Judges' decision is final"
+    ]
   },
   {
-    id: "art-attack",
-    title: "ART ATTACK",
-    description: "Express your creativity through various art forms",
-    icon: Palette,
+    id: 10,
+    title: "Literary Events",
+    description: "Participate in essay writing, poetry, or debate competitions.",
+    venue: "Conference Room",
+    time: "10:00 AM - 12:00 PM",
+    icon: BookOpen,
     rules: [
-      "Categories: Painting, Sketching, Digital Art",
-      "Theme will be announced on-spot",
-      "Duration: 2 hours",
-      "A3 size sheets provided for traditional art",
-      "For digital art, participants must bring their own devices",
-      "Judging based on creativity, technique, and theme relevance"
-    ],
-    venue: "Art Gallery",
-    time: "1:00 PM - 3:00 PM"
-  },
-  {
-    id: "voice-of-pravesha",
-    title: "VOICE OF PRAVESHA",
-    description: "Singing competition to find the best vocalist",
-    icon: Mic,
-    rules: [
-      "Solo performances only",
-      "Time limit: 4 minutes",
-      "One song in any language",
-      "Karaoke/instrumental tracks allowed (submit in advance)",
-      "Judging based on vocal quality, technique, and stage presence",
-      "Registration closes on March 24, 2025"
-    ],
-    venue: "Music Room",
-    time: "3:30 PM - 6:00 PM"
+      "Registration for specific literary event required",
+      "Topics announced 15 minutes before start",
+      "Time limits vary by sub-event",
+      "Both English and regional language entries accepted",
+      "Plagiarism will lead to disqualification"
+    ]
   }
 ];
