@@ -64,12 +64,12 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				symposium: {
-					'blue': '#1E3A8A',
-					'purple': '#7E22CE',
+					'blue': '#2a2391',
+					'purple': '#6b21a8',
 					'purple-light': '#8B5CF6',
 					'purple-dark': '#4C1D95',
-					'card': 'rgba(255, 255, 255, 0.1)',
-					'card-hover': 'rgba(255, 255, 255, 0.15)',
+					'card': 'rgba(255, 255, 255, 0.08)',
+					'card-hover': 'rgba(255, 255, 255, 0.12)',
 				}
 			},
 			borderRadius: {
@@ -104,7 +104,7 @@ export default {
 				'display': ['Montserrat', 'sans-serif'],
 			},
 			backgroundImage: {
-				'symposium-gradient': 'linear-gradient(to right bottom, #1E3A8A, #7E22CE)',
+				'symposium-gradient': 'linear-gradient(to right bottom, #2a2391, #6b21a8)',
 			}
 		}
 	},

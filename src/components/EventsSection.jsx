@@ -18,11 +18,11 @@ const EventsSection = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-12 grid grid-cols-1 lg:grid-cols-2 gap-8">
-      <div className="space-y-6">
+    <div className="container mx-auto px-4 py-8 grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="space-y-4">
         <div className="bg-symposium-card backdrop-blur-sm p-6 rounded-lg">
-          <h2 className="text-2xl font-bold text-white mb-4">Technical Events</h2>
-          <div className="space-y-2">
+          <h2 className="text-2xl font-bold text-white mb-6">Technical Events</h2>
+          <div className="space-y-4">
             {technicalEvents.map((event) => (
               <EventCard 
                 key={event.id} 
@@ -34,10 +34,10 @@ const EventsSection = () => {
         </div>
       </div>
       
-      <div className="space-y-6">
+      <div className="space-y-4">
         <div className="bg-symposium-card backdrop-blur-sm p-6 rounded-lg">
-          <h2 className="text-2xl font-bold text-white mb-4">Non-Technical Events</h2>
-          <div className="space-y-2">
+          <h2 className="text-2xl font-bold text-white mb-6">Non-Technical Events</h2>
+          <div className="space-y-4">
             {nonTechnicalEvents.map((event) => (
               <EventCard 
                 key={event.id} 
