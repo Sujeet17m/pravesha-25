@@ -13,8 +13,15 @@ const Hero = () => {
       </div>
       
       <div className="flex items-center justify-center gap-2 text-white mb-8">
-        <Instagram className="h-5 w-5" />
-        <span>Follow us on Instagram</span>
+        <a 
+          href="https://www.instagram.com/pravesha_2k25/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 hover:text-blue-300 transition-colors"
+        >
+          <Instagram className="h-5 w-5" />
+          <span>Follow us on Instagram</span>
+        </a>
       </div>
     </div>
   );

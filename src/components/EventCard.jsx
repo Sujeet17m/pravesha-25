@@ -22,8 +22,8 @@ const EventCard = ({ event, onClick }) => {
       
       <div className="flex justify-end gap-2 mt-4">
         <Button 
-          variant="outline" 
-          className="text-white border-white hover:bg-white/10"
+          variant="secondary" 
+          className="text-white bg-purple-500 hover:bg-purple-600"
           onClick={() => onClick(event)}
         >
           View Details
