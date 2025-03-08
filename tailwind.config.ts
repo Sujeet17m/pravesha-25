@@ -1,12 +1,13 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
 	darkMode: ["class"],
 	content: [
-		"./pages/**/*.{ts,tsx}",
-		"./components/**/*.{ts,tsx}",
-		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./pages/**/*.{js,jsx,ts,tsx}",
+		"./components/**/*.{js,jsx,ts,tsx}",
+		"./app/**/*.{js,jsx,ts,tsx}",
+		"./src/**/*.{js,jsx,ts,tsx}",
 	],
 	prefix: "",
 	theme: {
@@ -61,6 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				symposium: {
+					'blue': '#1E3A8A',
+					'purple': '#7E22CE',
+					'purple-light': '#8B5CF6',
+					'purple-dark': '#4C1D95',
+					'card': 'rgba(255, 255, 255, 0.1)',
+					'card-hover': 'rgba(255, 255, 255, 0.15)',
 				}
 			},
 			borderRadius: {
@@ -89,6 +98,13 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
+			},
+			fontFamily: {
+				'sans': ['Inter', 'sans-serif'],
+				'display': ['Montserrat', 'sans-serif'],
+			},
+			backgroundImage: {
+				'symposium-gradient': 'linear-gradient(to right bottom, #1E3A8A, #7E22CE)',
 			}
 		}
 	},
