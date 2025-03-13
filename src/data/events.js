@@ -177,7 +177,7 @@ export const technicalEvents = [
     title: "PAPER PRESENTATION",
     description: "Present your research papers and innovative ideas",
     price: "₹500",
-    venue: "Seminar Hall",
+    venue: "MGR BLOCK",
     time: "10:00 AM - 12:00 PM",
     icon: FileText,
     rules: [
@@ -193,7 +193,7 @@ export const technicalEvents = [
     title: "DECODE X",
     description: "Solve coding challenges in two rounds",
     price: "₹1000",
-    venue: "CS Lab 1",
+    venue: "MGR BLOCK",
     time: "Starts at 9:00 AM",
     icon: Code,
     rules: [
@@ -210,7 +210,7 @@ export const technicalEvents = [
     title: "BRAIN BYTE",
     description: "Programming quiz competition",
     price: "₹300",
-    venue: "Auditorium",
+    venue: "MGR BLOCK",
     time: "2:00 PM - 4:00 PM",
     icon: BrainCircuit,
     rules: [
@@ -227,7 +227,7 @@ export const technicalEvents = [
     title: "PITCH PERK",
     description: "Pitch your project, startup, or innovative idea",
     price: "₹400",
-    venue: "Innovation Hub",
+    venue: "MGR BLOCK",
     time: "11:00 AM - 1:00 PM",
     icon: Presentation,
     rules: [
@@ -243,7 +243,7 @@ export const technicalEvents = [
     title: "ROBO RUSH",
     description: "Showcase your robotics and automation projects",
     price: "₹800",
-    venue: "Main Hall",
+    venue: "MGR BLOCK",
     time: "1:00 PM - 4:00 PM",
     icon: ShieldCheck,
     rules: [
@@ -262,7 +262,7 @@ export const nonTechnicalEvents = [
     title: "SHOWOFF 2.0",
     description: "Showcase your talents in dance, music, or any performing art",
     price: "₹300",
-    venue: "Open Auditorium",
+    venue: "MGR BLOCK",
     time: "2:00 PM - 5:00 PM",
     icon: Music,
     rules: [
@@ -278,7 +278,7 @@ export const nonTechnicalEvents = [
     title: "CINEPHILE",
     description: "Test your knowledge of cinema and entertainment",
     price: "₹200",
-    venue: "Mini Auditorium",
+    venue: "MGR BLOCK",
     time: "3:00 PM - 4:30 PM",
     icon: Film,
     rules: [
@@ -294,7 +294,7 @@ export const nonTechnicalEvents = [
     title: "E-GAMES",
     description: "Competitive gaming tournament",
     price: "₹600",
-    venue: "Gaming Arena",
+    venue: "MGR BLOCK",
     time: "Throughout the day",
     icon: Gamepad2,
     rules: [
