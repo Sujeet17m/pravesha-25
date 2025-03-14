@@ -307,16 +307,37 @@ export const nonTechnicalEvents = [
   }
 ];
 
+// export const coordinators = [
+//   {
+//     title: "Student Coordinators",
+//     name: "Mr.S.SANJAY",
+//     phone: "+91 9087358055"
+//   },
+//   {
+//     title: "Staff Coordinator",
+//     name: "Dr. Smith",
+//     phone: "+91 91234 56789"
+//   }
+// ];
 export const coordinators = [
   {
-    title: "Student Coordinator",
-    name: "John Doe",
-    phone: "+91 98765 43210"
+    title: "Staff Coordinators",
+    members: [
+      { name: "Dr.G.REVATHY", phone: "+91 9566290952" },
+      { name: "Dr.P.THILAKAVATHY", phone: "+91 9400446608" },
+      { name: "Ms.S.M.SOWMIYA", phone: "N/A" },
+      { name: "Ms.S.SATHEA SREE", phone: "N/A" }
+    ]
   },
   {
-    title: "Staff Coordinator",
-    name: "Dr. Smith",
-    phone: "+91 91234 56789"
+    title: "Student Coordinators",
+    members: [
+      { name: "Mr.S.SANJAY", phone: "+91 9087358055" },
+      { name: "Mr.UM.HARIKESARI", phone: "+91 8754681336" },
+      { name: "Ms.G.ABINAYA", phone: "+91 8838182311" },
+      { name: "Ms.S.PRABAVATHI", phone: "+91 9790991806" }
+    ]
   }
 ];
+
 
