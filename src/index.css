@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
 
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -115,82 +115,8 @@ html, body, #root {
 
 .bg-symposium-card-hover {
   background-color: rgba(255, 255, 255, 0.12);
-} */
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-@layer base {
-  :root {
-    @apply antialiased;
-  }
-} */
 
-/* Fix iOS Text Visibility */
-/* .card-title {
-  color: #ffffff !important; /* Ensures text is always white */
-  font-weight: bold;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Improves visibility */
-} */
 
-/* Fix Transparency Issues */
-/* .card {
-  background: rgba(0, 0, 0, 0.6) !important; /* Reduce transparency */
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
-} */
-
-/* Fix Viewport Height Issues */
-/* html, body {
-  height: -webkit-fill-available;
-} */
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-@layer base {
-  :root {
-    @apply antialiased;
-  }
-}
-/* Fix for iOS modal transparency issue */
-.modal {
-    background: rgba(0, 0, 0, 0.9) !important; /* Darker background for better contrast */
-    backdrop-filter: blur(5px); /* Subtle blur to keep readability */
-    color: white !important; /* Ensure text is readable */
-}
-
-/* Ensure buttons are visible */
-.modal button {
-    color: white !important;
-    background-color: #6200ea !important; /* Material purple for visibility */
-    border-radius: 5px;
-    padding: 10px;
-}
-
-/* Fix text readability inside modal */
-.modal h2, .modal p {
-    color: white !important;
-}
 
