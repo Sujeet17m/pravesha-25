@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="container mx-auto text-center">
         <div className="mb-6">
           <h3 className="text-xl font-medium mb-2">For inquiries, contact:</h3>
-          {/*           <p className="mb-1">Student Coordinator: +91 9999999999</p>
-          <p>Faculty Coordinator: +91 9999999999</p> */}
-          <p>Staff Coordinators:</p>
+                    <p className="mb-1">Student Coordinator: +91 9999999999</p>
+          <p>Faculty Coordinator: +91 9999999999</p>
+{/*           <p>Staff Coordinators:</p>
 <ul>
   <li>Dr.G.REVATHY - +91 9566290952</li>
   <li>Dr.P.THILAKAVATHY - +91 9400446608</li>
@@ -22,7 +22,7 @@ const Footer = () => {
   <li>Mr.UM.HARIKESARI - +91 8754681336</li>
   <li>Ms.G.ABINAYA - +91 8838182311</li>
   <li>Ms.S.PRABAVATHI - +91 9790991806</li>
-</ul>
+</ul> */}
 
         </div>
         
