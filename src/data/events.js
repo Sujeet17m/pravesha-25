@@ -315,8 +315,8 @@ export const coordinators = [
   },
   {
     title: "Staff Coordinator",
-    name: "Dr. Smith",
-    phone: "+91 91234 56789"
+    name: "Dr.G.REVATHY",
+    phone: "+91 9566290952"
   }
 ];
 // export const coordinators = [
