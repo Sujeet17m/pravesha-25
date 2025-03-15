@@ -203,42 +203,53 @@ html, body, #root {
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
-  }
+/* Apply the background to the entire page */
+body, #root {
+  background-image: url('/images/background.jpg'); /* Ensure it's inside public/images/ */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 
-  body {
-    @apply bg-background text-foreground;
-    overflow-x: hidden;
-  }
+/* Reduce opacity of main container to reveal the background */
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.85); /* Adjust for visibility */
+}
 
-  .event-card {
-    @apply bg-symposium-card backdrop-blur-sm rounded-lg transition-all hover:bg-symposium-card-hover cursor-pointer;
-  }
+.app-background {
+  background-image: url('/images/background.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
+  min-height: 100vh !important;
+  width: 100% !important;
+  opacity: 0.9 !important; /* Ensures the background is visible */
+}
 
-  /* Ensure text is visible on iOS */
+/* Ensure text is visible on iOS */
+.technical-events {
+  color: #ffffff !important; /* Ensure high contrast */
+  z-index: 10;
+  -webkit-text-fill-color: inherit;
+}
+
+/* Fix for iOS dark mode */
+@media (prefers-color-scheme: dark) {
   .technical-events {
-    color: #ffffff !important; /* Ensure high contrast */
-    z-index: 10;
-    -webkit-text-fill-color: inherit;
+    color: white !important;
   }
+}
 
-  /* Fix for iOS dark mode */
-  @media (prefers-color-scheme: dark) {
-    .technical-events {
-      color: white !important;
-    }
-  }
-
-  /* Fix potential flexbox/grid issues */
-  .technical-events-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-  }
+/* Fix potential flexbox/grid issues */
+.technical-events-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 html, body, #root {
@@ -256,6 +267,22 @@ html, body, #root {
 
 .bg-symposium-card-hover {
   background-color: rgba(255, 255, 255, 0.12);
+}
+
+.event-card {
+  background: rgba(255, 255, 255, 0.15); /* Light translucent background */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+  border-radius: 12px; /* Smooth rounded corners */
+  padding: 16px; /* Spacing inside the card */
+  margin: 16px 0; /* Space between event cards */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Subtle border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: all 0.3s ease-in-out;
+}
+
+.event-card:hover {
+  background: rgba(255, 255, 255, 0.25); /* Slightly brighter on hover */
+  transform: scale(1.02); /* Small zoom effect */
 }
 
 
