@@ -339,38 +339,204 @@
 //     ]
 //   }
 // ];
-const events = [
+// const events = [
+//   {
+//     name: "Decode X",
+//     registrationLink: "https://forms.gle/7dGTUNDTjAAarWZ18"
+//   },
+//   {
+//     name: "Brain Byte",
+//     registrationLink: "https://forms.gle/VyNxzKZQxyE5Qazb9"
+//   },
+//   {
+//     name: "Pitch Perk",
+//     registrationLink: "https://forms.gle/qnTctYXUP5GpH53x9"
+//   },
+//   {
+//     name: "Paper Presentation",
+//     registrationLink: "https://forms.gle/AgYhqeEUuU7XwHTw8"
+//   },
+//   {
+//     name: "E- Games",
+//     registrationLink: "https://forms.gle/5mJF2oZeCyN6Dc5X9"
+//   },
+//   {
+//     name: "Cinephile",
+//     registrationLink: "https://forms.gle/FJmmHAuFHDf2ZE896"
+//   },
+//   {
+//     name: "Showoff",
+//     registrationLink: "https://forms.gle/ehutzu5nxVrfYirJA"
+//   }
+// ];
+
+// export default events;
+import { 
+  Code, 
+  FileText,
+  BrainCircuit,
+  LucideLayoutDashboard,
+  Bug,
+  ShieldCheck,
+  Music, 
+  Film,
+  Gamepad2,
+  Presentation
+} from 'lucide-react';
+
+export const technicalEvents = [
   {
-    name: "Decode X",
-    registrationLink: "https://forms.gle/7dGTUNDTjAAarWZ18"
+    id: 1,
+    title: "PAPER PRESENTATION",
+    registrationLink: "https://forms.gle/AgYhqeEUuU7XwHTw8",
+    description: "Present your research papers and innovative ideas",
+    price: "₹500",
+    venue: "MGR BLOCK",
+    time: "10:00 AM - 12:00 PM",
+    icon: FileText,
+    rules: [
+      "Individual or team of 3 participants",
+      "Paper must be related to Computer Science and Emerging Technologies",
+      "Submit your paper before 25/03/25 in IEEE format",
+      "Presentation: 10 minutes + 5 minutes Q&A",
+      "Plagiarism will lead to disqualification"
+    ]
   },
   {
-    name: "Brain Byte",
-    registrationLink: "https://forms.gle/VyNxzKZQxyE5Qazb9"
+    id: 2,
+    title: "DECODE X",
+    registrationLink: "https://forms.gle/7dGTUNDTjAAarWZ18",
+    description: "Solve coding challenges in two rounds",
+    price: "₹1000",
+    venue: "MGR BLOCK",
+    time: "Starts at 9:00 AM",
+    icon: Code,
+    rules: [
+      "Individual or team of 2 members",
+      "Round 1: Solve basic programming problems within 30 minutes",
+      "Top scorers qualify for Round 2",
+      "Round 2: Solve advanced problems under time constraints",
+      "Judging based on correctness, efficiency, and optimization",
+      "Use of AI tools or external help is prohibited"
+    ]
   },
   {
-    name: "Pitch Perk",
-    registrationLink: "https://forms.gle/qnTctYXUP5GpH53x9"
+    id: 3,
+    title: "BRAIN BYTE",
+    registrationLink: "https://forms.gle/VyNxzKZQxyE5Qazb9",
+    description: "Programming quiz competition",
+    price: "₹300",
+    venue: "MGR BLOCK",
+    time: "2:00 PM - 4:00 PM",
+    icon: BrainCircuit,
+    rules: [
+      "Individual or team of 2 members",
+      "Round 1: MCQ test covering programming fundamentals",
+      "Top scorers qualify for Round 2",
+      "Round 2: Rapid-fire or buzzer round with negative marking",
+      "No electronic gadgets allowed",
+      "Judges' decision is final"
+    ]
   },
   {
-    name: "Paper Presentation",
-    registrationLink: "https://forms.gle/AgYhqeEUuU7XwHTw8"
+    id: 4,
+    title: "PITCH PERK",
+    registrationLink: "https://forms.gle/qnTctYXUP5GpH53x9",
+    description: "Pitch your project, startup, or innovative idea",
+    price: "₹400",
+    venue: "MGR BLOCK",
+    time: "11:00 AM - 1:00 PM",
+    icon: Presentation,
+    rules: [
+      "Individual or team of 3 members",
+      "Submit abstract (max 200 words) before deadline",
+      "Presentation: 10 minutes + 5 minutes Q&A",
+      "Plagiarism will lead to disqualification",
+      "Judges' decision is final"
+    ]
   },
   {
-    name: "E- Games",
-    registrationLink: "https://forms.gle/5mJF2oZeCyN6Dc5X9"
-  },
-  {
-    name: "Cinephile",
-    registrationLink: "https://forms.gle/FJmmHAuFHDf2ZE896"
-  },
-  {
-    name: "Showoff",
-    registrationLink: "https://forms.gle/ehutzu5nxVrfYirJA"
+    id: 5,
+    title: "WORKSHOP",
+    registrationLink: "https://your-workshop-google-form-link",
+    description: "Hands-on experience with experts in the field.",
+    price: "₹500",
+    venue: "MGR BLOCK",
+    time: "1:00 PM - 3:00 PM",
+    icon: ShieldCheck,
+    rules: [
+      "Individual or team participation allowed.",
+      "Limited seats available—first come, first serve."
+    ]
   }
 ];
 
-export default events;
+export const nonTechnicalEvents = [
+  {
+    id: 6,
+    title: "SHOWOFF 2.0",
+    registrationLink: "https://forms.gle/ehutzu5nxVrfYirJA",
+    description: "Showcase your talents in dance, music, or any performing art",
+    price: "₹300",
+    venue: "MGR BLOCK",
+    time: "2:00 PM - 5:00 PM",
+    icon: Music,
+    rules: [
+      "Solo or group performance (max 8 members)",
+      "Performance should not exceed 10 minutes",
+      "No vulgar or offensive content allowed",
+      "Props and background music should be pre-arranged",
+      "Exceeding the time limit may lead to point deduction"
+    ]
+  },
+  {
+    id: 7,
+    title: "CINEPHILE",
+    registrationLink: "https://forms.gle/FJmmHAuFHDf2ZE896",
+    description: "Test your knowledge of cinema and entertainment",
+    price: "₹200",
+    venue: "MGR BLOCK",
+    time: "3:00 PM - 4:30 PM",
+    icon: Film,
+    rules: [
+      "Individual or team of 2 participants",
+      "Round 1: Multiple-choice quiz on Kollywood movies",
+      "Round 2: Audio-visual identification and trivia",
+      "No external help or mobile phones allowed",
+      "Highest scoring team wins"
+    ]
+  },
+  {
+    id: 8,
+    title: "E-GAMES",
+    registrationLink: "https://forms.gle/5mJF2oZeCyN6Dc5X9",
+    description: "Competitive gaming tournament",
+    price: "₹600",
+    venue: "MGR BLOCK",
+    time: "Throughout the day",
+    icon: Gamepad2,
+    rules: [
+      "Team-based Battle Royale format",
+      "Max 4 players per squad",
+      "Round 1: Qualifier match - top squads advance",
+      "Round 2: Final match - based on survival ranking, kills, and damage dealt",
+      "Use of cheats, hacks, or emulators is strictly prohibited"
+    ]
+  }
+];
+
+export const coordinators = [
+  {
+    title: "Student Coordinators",
+    name: "Mr.S.SANJAY",
+    phone: "+91 9087358055"
+  },
+  {
+    title: "Staff Coordinator",
+    name: "Dr.G.REVATHY",
+    phone: "+91 9566290952"
+  }
+];
 
 
 
