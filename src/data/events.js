@@ -390,7 +390,7 @@ export const technicalEvents = [
     title: "PAPER PRESENTATION",
     registrationLink: "https://forms.gle/AgYhqeEUuU7XwHTw8",
     description: "Present your research papers and innovative ideas",
-    price: "₹500",
+   
     venue: "MGR BLOCK",
     time: "10:00 AM - 12:00 PM",
     icon: FileText,
@@ -407,7 +407,7 @@ export const technicalEvents = [
     title: "DECODE X",
     registrationLink: "https://forms.gle/7dGTUNDTjAAarWZ18",
     description: "Solve coding challenges in two rounds",
-    price: "₹1000",
+   
     venue: "MGR BLOCK",
     time: "Starts at 9:00 AM",
     icon: Code,
@@ -425,7 +425,7 @@ export const technicalEvents = [
     title: "BRAIN BYTE",
     registrationLink: "https://forms.gle/VyNxzKZQxyE5Qazb9",
     description: "Programming quiz competition",
-    price: "₹300",
+    
     venue: "MGR BLOCK",
     time: "2:00 PM - 4:00 PM",
     icon: BrainCircuit,
@@ -443,7 +443,7 @@ export const technicalEvents = [
     title: "PITCH PERK",
     registrationLink: "https://forms.gle/qnTctYXUP5GpH53x9",
     description: "Pitch your project, startup, or innovative idea",
-    price: "₹400",
+   
     venue: "MGR BLOCK",
     time: "11:00 AM - 1:00 PM",
     icon: Presentation,
@@ -460,7 +460,7 @@ export const technicalEvents = [
     title: "WORKSHOP",
     registrationLink: "https://your-workshop-google-form-link",
     description: "Hands-on experience with experts in the field.",
-    price: "₹500",
+    
     venue: "MGR BLOCK",
     time: "1:00 PM - 3:00 PM",
     icon: ShieldCheck,
@@ -477,7 +477,7 @@ export const nonTechnicalEvents = [
     title: "SHOWOFF 2.0",
     registrationLink: "https://forms.gle/ehutzu5nxVrfYirJA",
     description: "Showcase your talents in dance, music, or any performing art",
-    price: "₹300",
+    
     venue: "MGR BLOCK",
     time: "2:00 PM - 5:00 PM",
     icon: Music,
@@ -494,7 +494,7 @@ export const nonTechnicalEvents = [
     title: "CINEPHILE",
     registrationLink: "https://forms.gle/FJmmHAuFHDf2ZE896",
     description: "Test your knowledge of cinema and entertainment",
-    price: "₹200",
+    
     venue: "MGR BLOCK",
     time: "3:00 PM - 4:30 PM",
     icon: Film,
@@ -511,7 +511,7 @@ export const nonTechnicalEvents = [
     title: "E-GAMES",
     registrationLink: "https://forms.gle/5mJF2oZeCyN6Dc5X9",
     description: "Competitive gaming tournament",
-    price: "₹600",
+ 
     venue: "MGR BLOCK",
     time: "Throughout the day",
     icon: Gamepad2,
