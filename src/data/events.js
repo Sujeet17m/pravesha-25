@@ -388,7 +388,7 @@ export const technicalEvents = [
   {
     id: 1,
     title: "PAPER PRESENTATION",
-    registrationLink: "https://forms.gle/AgYhqeEUuU7XwHTw8",
+    registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
     description: "Present your research papers and innovative ideas",
    
     venue: "MGR BLOCK",
@@ -405,7 +405,7 @@ export const technicalEvents = [
   {
     id: 2,
     title: "DECODE X",
-    registrationLink: "https://forms.gle/7dGTUNDTjAAarWZ18",
+    registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
     description: "Solve coding challenges in two rounds",
    
     venue: "MGR BLOCK",
@@ -423,7 +423,7 @@ export const technicalEvents = [
   {
     id: 3,
     title: "BRAIN BYTE",
-    registrationLink: "https://forms.gle/VyNxzKZQxyE5Qazb9",
+    registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
     description: "Programming quiz competition",
     
     venue: "MGR BLOCK",
@@ -441,7 +441,7 @@ export const technicalEvents = [
   {
     id: 4,
     title: "PITCH PERK",
-    registrationLink: "https://forms.gle/qnTctYXUP5GpH53x9",
+    registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
     description: "Pitch your project, startup, or innovative idea",
    
     venue: "MGR BLOCK",
@@ -458,7 +458,7 @@ export const technicalEvents = [
   {
     id: 5,
     title: "WORKSHOP",
-    registrationLink: "https://your-workshop-google-form-link",
+    registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
     description: "Hands-on experience with experts in the field.",
     
     venue: "MGR BLOCK",
@@ -475,7 +475,7 @@ export const nonTechnicalEvents = [
   {
     id: 6,
     title: "SHOWOFF 2.0",
-    registrationLink: "https://forms.gle/ehutzu5nxVrfYirJA",
+    registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
     description: "Showcase your talents in dance, music, or any performing art",
     
     venue: "MGR BLOCK",
@@ -492,7 +492,7 @@ export const nonTechnicalEvents = [
   {
     id: 7,
     title: "CINEPHILE",
-    registrationLink: "https://forms.gle/FJmmHAuFHDf2ZE896",
+    registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
     description: "Test your knowledge of cinema and entertainment",
     
     venue: "MGR BLOCK",
@@ -509,7 +509,7 @@ export const nonTechnicalEvents = [
   {
     id: 8,
     title: "E-GAMES",
-    registrationLink: "https://forms.gle/5mJF2oZeCyN6Dc5X9",
+    registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
     description: "Competitive gaming tournament",
  
     venue: "MGR BLOCK",
