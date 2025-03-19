@@ -797,7 +797,7 @@ export const technicalEvents = [
       "Any form of cheating will lead to disqualification.",
       "Prizes and certificates will be awarded at the end of the event."
     ],
-    location: "MGR BLOCK LAB-3",
+    location: "MGR BLOCK LAB3",
     time: "11:30 AM - 12:30 PM"
   },
   {
@@ -877,12 +877,13 @@ export const nonTechnicalEvents = [
       "The event is open to individuals and groups (max 8 members per group).",
       "Performance Categories:",
       "1) Singing",
-      "2) Stand-up comedy",
-      "3) Instrumental music",
-      "4) Magic tricks",
-      "5) Mimicry",
-      "6) Mime",
-      "7) Any unique performance",
+      "2) Dancing",
+      "3) Stand-up comedy",
+      "4) Instrumental music",
+      "5) Magic tricks",
+      "6) Mimicry",
+      "7) Mime",
+      "8) Any unique performance",
       "No vulgar, offensive, or inappropriate content is allowed.",
       "Each performance should not exceed 10 minutes.",
       "Background music, props, or instruments should be arranged in advance.",
