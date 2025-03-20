@@ -216,7 +216,7 @@ body, #root {
 .app-container {
   min-height: 100vh;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.85); /* Adjust for visibility */
+  background-color: rgba(2, 0, 37, 0.8); /* Adjust for visibility */
 }
 
 .app-background {
@@ -258,7 +258,7 @@ html, body, #root {
 }
 
 .bg-symposium-gradient {
-  background: linear-gradient(to right bottom, #2a2391, #6b21a8);
+  background: linear-gradient(to right bottom, rgba(0, 0, 51, 0.7), rgba(10, 10, 100, 0.7));
 }
 
 .bg-symposium-card {
