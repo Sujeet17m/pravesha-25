@@ -738,6 +738,221 @@
 //     phone: "+91 9566290952"
 //   }
 // ];
+// import { 
+//   Code, 
+//   FileText,
+//   BrainCircuit,
+//   LucideLayoutDashboard,
+//   Bug,
+//   ShieldCheck,
+//   Music, 
+//   Film,
+//   Gamepad2,
+//   Presentation
+// } from 'lucide-react';
+
+// export const technicalEvents = [
+//   {
+//     id: 1,
+//     title: "PAPER PRESENTATION",
+//     registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
+//     description: "Present your research papers and innovative ideas.",
+
+//     rules: [
+//       "The event is open to individuals or teams (max 3 members).",
+//       "Papers should be related to Computer Science and Emerging Technologies.",
+//       "Each team must submit their paper in advance (before 25/03/25).",
+//       "The paper must be in IEEE format (Font: Times New Roman, Size: 12, Spacing: 1.5).",
+//       "The paper should not exceed X pages, including references.",
+//       "Plagiarism will lead to rejection.",
+//       "Each team will get 10 minutes for the presentation + 5 minutes for Q&A.",
+//       "Presentations must be in PPT format.",
+//       "Use of animations, videos, or interactive elements is allowed but must be relevant.",
+//       "Exceeding the time limit will lead to penalty points.",
+//       "Participants must report at least X minutes before their scheduled time.",
+//       "Prizes and certificates will be distributed at the end of the event."
+//     ],
+//     location: "LECTURE THEATRE",
+//     time: "1:30 PM - 03:00 PM"
+//   },
+//   {
+//     id: 2,
+//     title: "DECODE X",
+//     registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
+//     description: "Solve coding challenges in two rounds.",
+
+//     rules: [
+//       "The event is open to individuals or teams (max 2 members).",
+//       "The competition consists of two rounds:",
+//       "Round 1: Preliminary Round",
+//       " 1)Participants will solve a set of basic programming problems.",
+//       " 2)Allowed languages: C, C++, Java, Python.",
+//       " 3)Duration: 30 minutes.",
+//       " 4)Top participants qualify for Round 2.",
+//       "Round 2: Final Round",
+//       " 1)Problems will be more challenging.",
+//       " 2)Efficiency & correctness of the code will be evaluated.",
+//       " 3)Fastest optimized solutions win.",
+//       "AI tools, external help, or discussion with others is strictly prohibited.",
+//       "Any form of cheating will lead to disqualification.",
+//       "Prizes and certificates will be awarded at the end of the event."
+//     ],
+//     location: "MGR BLOCK LAB3",
+//     time: "11:30 AM - 12:30 PM"
+//   },
+//   {
+//     id: 3,
+//     title: "BRAIN BYTE",
+//     registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
+//     description: "Programming quiz competition.",
+//     rules: [
+//       "The event is open to individuals or teams (max 2 members).",
+//       "The quiz consists of two rounds:",
+//       "Round 1: Preliminary Round",
+//       "1) Written multiple-choice (MCQ) test on programming basics.",
+//       "2) Time limit: X minutes.",
+//       "3) Top Y participants qualify for Round 2.",
+//       "Round 2: Final Round",
+//       "1) A rapid-fire or buzzer round.",
+//       "2) Questions will be based on fundamental programming concepts.",
+//       "3) Negative marking may apply.",
+//       "4) Highest score at the end wins.",
+//       "Use of mobile phones or external assistance is strictly prohibited.",
+//       "Prizes and certificates will be awarded at the end of the event.",
+//       "Judges' decisions are final and binding."
+//     ],
+//     location: "MGR BLOCK LAB-4",
+//     time: "1:30 PM - 2:30 PM"
+//   },
+//   {
+//     id: 4,
+//     title: "PITCH PERK",
+//     registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
+//     description: "Pitch your project, startup, or innovative idea.",
+//     rules: [
+//       "The event is open to individuals or teams (max 3 members).",
+//       "Participants can pitch a project idea, a startup concept, or an innovative solution.",
+//       "Each team must submit a brief abstract (max 200 words) before the deadline.",
+//       "Presentation Guidelines:",
+//       "1) Each team gets 10 minutes to present + 5 minutes for Q&A.",
+//       "2) The presentation must be in PPT format.",
+//       "3) Optional: Prototypes, mock-ups, or demos can be used.",
+//       "Judging Criteria:",
+//       "1) Problem Statement",
+//       "2) Solution & Innovation",
+//       "3) Target Market & Feasibility",
+//       "4) Implementation Strategy",
+//       "5) Revenue Model (if applicable)",
+//       "The decision of the panel of judges is final and binding.",
+//       "Exceeding the time limit will result in penalties.",
+//       "Any form of plagiarism will lead to disqualification.",
+//       "Prizes and certificates will be awarded at the end of the event."
+//     ],
+//     location: "VIBA AUDITORIUM",
+//     time: "10:30 AM - 12:00 PM"
+//   },
+//   {
+//     id: 5,
+//     title: "WORKSHOP",
+//     registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
+//     description: "Hands-on experience with experts in the field.",
+//     location: "APJ LAB",
+//     time: "10:30 AM - 12:30 PM",
+//     rules: [
+//       "Individual or team participation allowed.",
+//       "Limited seats available—first come, first serve."
+//     ]
+//   }
+// ];
+
+// export const nonTechnicalEvents = [
+//   {
+//     id: 6,
+//     title: "SHOWOFF 2.0",
+//     registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
+//     description: "Showcase your talents in dance, music, or any performing art.",
+//     location: "VIBA AUDITORIUM",
+//     time: "1:30 PM - 3:00 PM",
+//     rules: [
+//       "The event is open to individuals and groups (max 8 members per group).",
+//       "Performance Categories:",
+//       "1) Singing",
+//       "2) Dancing",
+//       "3) Stand-up comedy",
+//       "4) Instrumental music",
+//       "5) Magic tricks",
+//       "6) Mimicry",
+//       "7) Mime",
+//       "8) Any unique performance",
+//       "No vulgar, offensive, or inappropriate content is allowed.",
+//       "Each performance should not exceed 10 minutes.",
+//       "Background music, props, or instruments should be arranged in advance.",
+//       "Exceeding the time limit may lead to point deduction.",
+//       "Participants must ensure their music or props are ready before their turn.",
+//       "Prizes and certificates will be awarded at the end."
+//     ]
+//   },
+//   {
+//     id: 7,
+//     title: "CINEPHILE",
+//     registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
+//     description: "Test your knowledge of cinema and entertainment.",
+//     location: "LECTURE THEATRE",
+//     time: "11:00 AM - 12:30 PM",
+//     rules: [
+//       "The event is open to individuals or teams (max 2 members).",
+//       "Quiz Topics:",
+//       "The event will have 2 rounds",
+//       "1) Movie dialogues",
+//       "2) Actors & directors",
+//       "3) Songs & background scores",
+//       "4) Iconic scenes & trivia",
+//       "No use of phones or external help is allowed.",
+//       "Judges' decisions are final and binding.",
+//       "The team/participant with the highest points wins!",
+//       "Prizes and certificates will be awarded at the end."
+//     ]
+//   },
+//   {
+//     id: 8,
+//     title: "E-GAMES",
+//     registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
+//     description: "Competitive gaming tournament",
+//     location: "MGR CLASSROOM",
+//     time: "10:30 AM - 12:30 PM",
+//     rules: [
+//       "The event is open to all participants attending the symposium.",
+//       "Tournament format: Clash Squad Custom Mode (Only Mobile players allowed).",
+//       "Participants must bring their own devices with Free Fire pre-installed and arrange their own internet.",
+//       "Headphones/Earphones are recommended for better in-game communication.",
+//       "The tournament consists of Qualifier Rounds and a Final Round (based on the total squads).",
+//       "Teaming up with opponents, using glitches, hacks, or third-party software is strictly prohibited.",
+//       "Players must join the game lobby 10 minutes before match time; late teams will be disqualified.",
+//       "Each squad is allowed only one substitute player.",
+//       "Throwables are not allowed.If found, Team will be Disqualified.",
+//       "Character skills &  Gun Attributes will be disabled by default.",
+//       "Fair play and respectful behavior are expected from all participants.",
+//       "Decisions made by the organizing committee are final and binding.",
+//       "If any squad member violates the rules, the entire squad will be disqualified.",
+//       "NOTE: Any violation of the above rules will lead to the instant disqualification of the entire squad."
+//     ]
+//   }
+// ];
+
+
+// export const coordinators = [
+//   {
+//     title: "Student Coordinators",
+//     name: "Mr.S.SANJAY",
+//     phone: "+91 9087358055"
+//   },
+//   {
+//     title: "Staff Coordinator",
+//     name: "Dr.G.REVATHY",
+//     phone: "+91 9566290952"
+//   }
+// ];
+
 import { 
   Code, 
   FileText,
@@ -759,19 +974,17 @@ export const technicalEvents = [
     description: "Present your research papers and innovative ideas.",
 
     rules: [
-      "The event is open to individuals or teams (max 3 members).",
-      "Papers should be related to Computer Science and Emerging Technologies.",
-      "Each team must submit their paper in advance (before 25/03/25).",
-      "The paper must be in IEEE format (Font: Times New Roman, Size: 12, Spacing: 1.5).",
-      "The paper should not exceed X pages, including references.",
-      "Plagiarism will lead to rejection.",
+      "The event is open to individuals or teams (max 4 members).",
+      "Papers should be related to Computer Science, Emerging Technologies, and SDG (17 Goals).",
+      "Each team must submit their PPT and Abstract in advance (before 24 hours).",
       "Each team will get 10 minutes for the presentation + 5 minutes for Q&A.",
-      "Presentations must be in PPT format.",
+      "Presentations must be in PPT format (8-15 slides).",
+      "Plagiarism must not exceed 15%.",
       "Use of animations, videos, or interactive elements is allowed but must be relevant.",
       "Exceeding the time limit will lead to penalty points.",
-      "Participants must report at least X minutes before their scheduled time.",
       "Prizes and certificates will be distributed at the end of the event."
     ],
+    
     location: "LECTURE THEATRE",
     time: "1:30 PM - 03:00 PM"
   },
@@ -785,19 +998,18 @@ export const technicalEvents = [
       "The event is open to individuals or teams (max 2 members).",
       "The competition consists of two rounds:",
       "Round 1: Preliminary Round",
-      " 1)Participants will solve a set of basic programming problems.",
-      " 2)Allowed languages: C, C++, Java, Python.",
-      " 3)Duration: 30 minutes.",
-      " 4)Top participants qualify for Round 2.",
+      " 1) Participants will be given a set of basic programming problems to solve.",
+      " 2) Allowed languages: C++, Java, Python.",
+      " 3) Duration: 30 minutes.",
+      " 4) Top participants qualify for Round 2.",
       "Round 2: Final Round",
-      " 1)Problems will be more challenging.",
-      " 2)Efficiency & correctness of the code will be evaluated.",
-      " 3)Fastest optimized solutions win.",
-      "AI tools, external help, or discussion with others is strictly prohibited.",
-      "Any form of cheating will lead to disqualification.",
-      "Prizes and certificates will be awarded at the end of the event."
+      " 1) The difficulty level of problems will increase.",
+      " 2) Participants must solve the given set of problems within the time limit.",
+      " 3) The top three contestants will be the prize winners.",
+      "Use of AI tools or external help will lead to immediate disqualification."
     ],
-    location: "MGR BLOCK LAB3",
+    
+    location: "MGR BLOCK LAB-3",
     time: "11:30 AM - 12:30 PM"
   },
   {
@@ -809,18 +1021,19 @@ export const technicalEvents = [
       "The event is open to individuals or teams (max 2 members).",
       "The quiz consists of two rounds:",
       "Round 1: Preliminary Round",
-      "1) Written multiple-choice (MCQ) test on programming basics.",
-      "2) Time limit: X minutes.",
-      "3) Top Y participants qualify for Round 2.",
+      "1) Written multiple-choice (MCQ) test based on programming fundamentals (Puzzle Based).",
+      "2) Time limit: 30 minutes.",
+      "3) Top participants qualify for Round 2.",
       "Round 2: Final Round",
-      "1) A rapid-fire or buzzer round.",
+      "1) A rapid-fire or buzzer round (based on event setup).",
       "2) Questions will be based on fundamental programming concepts.",
-      "3) Negative marking may apply.",
-      "4) Highest score at the end wins.",
+      "3) Negative marking may apply for incorrect answers.",
+      "4) The team/participant with the highest score at the end wins.",
       "Use of mobile phones or external assistance is strictly prohibited.",
       "Prizes and certificates will be awarded at the end of the event.",
       "Judges' decisions are final and binding."
     ],
+    
     location: "MGR BLOCK LAB-4",
     time: "1:30 PM - 2:30 PM"
   },
@@ -832,11 +1045,11 @@ export const technicalEvents = [
     rules: [
       "The event is open to individuals or teams (max 3 members).",
       "Participants can pitch a project idea, a startup concept, or an innovative solution.",
-      "Each team must submit a brief abstract (max 200 words) before the deadline.",
+      "Each team must submit a brief abstract (max 200 words) before 25/03/25.",
       "Presentation Guidelines:",
-      "1) Each team gets 10 minutes to present + 5 minutes for Q&A.",
-      "2) The presentation must be in PPT format.",
-      "3) Optional: Prototypes, mock-ups, or demos can be used.",
+      "1) Each team gets 5 minutes to present their idea + 3 minutes for Q&A.",
+      "2) The presentation must be in PPT format. A required template will be shared with all participants.",
+      "3) Optional: Prototypes, mock-ups, or demos may also be included.",
       "Judging Criteria:",
       "1) Problem Statement",
       "2) Solution & Innovation",
@@ -844,10 +1057,11 @@ export const technicalEvents = [
       "4) Implementation Strategy",
       "5) Revenue Model (if applicable)",
       "The decision of the panel of judges is final and binding.",
-      "Exceeding the time limit will result in penalties.",
-      "Any form of plagiarism will lead to disqualification.",
+      "Exceeding the time limit will result in a penalty.",
+      "Any form of plagiarism will lead to immediate disqualification.",
       "Prizes and certificates will be awarded at the end of the event."
     ],
+    
     location: "VIBA AUDITORIUM",
     time: "10:30 AM - 12:00 PM"
   },
@@ -859,9 +1073,21 @@ export const technicalEvents = [
     location: "APJ LAB",
     time: "10:30 AM - 12:30 PM",
     rules: [
-      "Individual or team participation allowed.",
-      "Limited seats available—first come, first serve."
-    ]
+      
+        "Overview of Computer Vision.",
+        "Fundamental Concepts and Evolution.",
+        "Interdependent Relationships in Computer Vision.",
+        "Real-World Applications and Case Studies.",
+        "Key Challenges and Strategic Solutions.",
+        "Emerging Trends and Future Innovations.",
+        "Industry-Standard Tools and Technologies.",
+        "Innovative Project Ideas in Computer Vision."
+      ],
+      
+  
+    
+
+    
   }
 ];
 
@@ -875,22 +1101,25 @@ export const nonTechnicalEvents = [
     time: "1:30 PM - 3:00 PM",
     rules: [
       "The event is open to individuals and groups (max 8 members per group).",
-      "Performance Categories:",
-      "1) Singing",
-      "2) Dancing",
-      "3) Stand-up comedy",
-      "4) Instrumental music",
-      "5) Magic tricks",
-      "6) Mimicry",
-      "7) Mime",
-      "8) Any unique performance",
-      "No vulgar, offensive, or inappropriate content is allowed.",
-      "Each performance should not exceed 10 minutes.",
-      "Background music, props, or instruments should be arranged in advance.",
-      "Exceeding the time limit may lead to point deduction.",
+      "Participants can showcase any talent, including:",
+      "1) Dancing",
+      "2) Singing",
+      "3) Rap",
+      "4) Beatboxing",
+      "5) Stand-up comedy",
+      "6) Instrumental music",
+      "7) Magic tricks",
+      "8) Mimicry",
+      "9) Mime",
+      "10) Any unique performance",
+      "The use of vulgar, offensive, or inappropriate content is strictly prohibited.",
+      "Each performance should not exceed 8 minutes.",
+      "Exceeding the time limit may lead to disqualification.",
       "Participants must ensure their music or props are ready before their turn.",
+      "Background music, props, or instruments should be arranged in advance.",
       "Prizes and certificates will be awarded at the end."
-    ]
+    ],
+    
   },
   {
     id: 7,
@@ -900,42 +1129,45 @@ export const nonTechnicalEvents = [
     location: "LECTURE THEATRE",
     time: "11:00 AM - 12:30 PM",
     rules: [
-      "The event is open to individuals or teams (max 2 members).",
-      "Quiz Topics:",
-      "The event will have 2 rounds",
-      "1) Movie dialogues",
-      "2) Actors & directors",
-      "3) Songs & background scores",
-      "4) Iconic scenes & trivia",
+      "The event is open to individuals or teams (max 3 members).",
+      "The event consists of three rounds:",
+      "Round 1: Guess the Tone",
+      "1) Participants must identify the song, movie, music composer, or singer based on a short audio clip from a film score or soundtrack.",
+      "Round 2: Guess the Dialogue",
+      "1) Participants must correctly identify the movie, character, or actor based on a short dialogue clip.",
+      "Round 3: Quiz",
+      "1) The quiz will focus exclusively on Kollywood movies, covering dialogues, scenes, the cast of the movie, and trivia.",
+      "2) Participants must answer within the given time limit.",
       "No use of phones or external help is allowed.",
       "Judges' decisions are final and binding.",
       "The team/participant with the highest points wins!",
       "Prizes and certificates will be awarded at the end."
-    ]
+    ],
+    
   },
   {
     id: 8,
     title: "E-GAMES",
     registrationLink: "https://forms.gle/mCwZvh9oYSHfW2jF8",
     description: "Competitive gaming tournament",
-    location: "MGR CLASSROOM",
+    location: "APJ-310",
     time: "10:30 AM - 12:30 PM",
     rules: [
-      "The event is open to all participants attending the symposium.",
       "Tournament format: Clash Squad Custom Mode (Only Mobile players allowed).",
-      "Participants must bring their own devices with Free Fire pre-installed and arrange their own internet.",
-      "Headphones/Earphones are recommended for better in-game communication.",
-      "The tournament consists of Qualifier Rounds and a Final Round (based on the total squads).",
-      "Teaming up with opponents, using glitches, hacks, or third-party software is strictly prohibited.",
+      "Participants must ensure their own internet connection is available.",
+      "Strictly no teaming up. Using bugs, glitches, third-party software, or hacks will lead to disqualification.",
+      "Glow wall break allowed.",
+      "Character skills OFF.",
+      "No Loadouts.",
+      "No Fall Damage.",
+      "No Grenades, Flash-Freez, or Flash-bang.",
       "Players must join the game lobby 10 minutes before match time; late teams will be disqualified.",
-      "Each squad is allowed only one substitute player.",
-      "Throwables are not allowed.If found, Team will be Disqualified.",
-      "Character skills &  Gun Attributes will be disabled by default.",
+      "Headphones/Earphones are recommended for better in-game communication.",
       "Fair play and respectful behavior are expected from all participants.",
       "Decisions made by the organizing committee are final and binding.",
-      "If any squad member violates the rules, the entire squad will be disqualified.",
-      "NOTE: Any violation of the above rules will lead to the instant disqualification of the entire squad."
-    ]
+      "NOTE: If any player from a squad violates the above rules, the entire squad will be instantly disqualified."
+    ],
+    
   }
 ];
 
@@ -952,6 +1184,5 @@ export const coordinators = [
     phone: "+91 9566290952"
   }
 ];
-
 
 
